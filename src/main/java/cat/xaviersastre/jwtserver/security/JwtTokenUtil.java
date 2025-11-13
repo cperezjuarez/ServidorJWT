@@ -1,4 +1,4 @@
-package cat.institutmvm.jwtserver.security;
+package cat.xaviersastre.jwtserver.security;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;

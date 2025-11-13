@@ -1,6 +1,6 @@
-package cat.institutmvm.jwtserver.repository;
+package cat.xaviersastre.jwtserver.repository;
 
-import cat.institutmvm.jwtserver.model.User;
+import cat.xaviersastre.jwtserver.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

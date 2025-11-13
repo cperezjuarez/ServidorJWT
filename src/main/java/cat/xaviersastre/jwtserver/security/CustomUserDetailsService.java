@@ -1,7 +1,7 @@
-package cat.institutmvm.jwtserver.security;
+package cat.xaviersastre.jwtserver.security;
 
-import cat.institutmvm.jwtserver.model.User;
-import cat.institutmvm.jwtserver.repository.UserRepository;
+import cat.xaviersastre.jwtserver.model.User;
+import cat.xaviersastre.jwtserver.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

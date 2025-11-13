@@ -1,4 +1,4 @@
-package cat.institutmvm.jwtserver.security;
+package cat.xaviersastre.jwtserver.security;
 
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;

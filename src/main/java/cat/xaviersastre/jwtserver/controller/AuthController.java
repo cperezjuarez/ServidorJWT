@@ -1,10 +1,10 @@
-package cat.institutmvm.jwtserver.controller;
+package cat.xaviersastre.jwtserver.controller;
 
-import cat.institutmvm.jwtserver.dto.JwtResponse;
-import cat.institutmvm.jwtserver.dto.LoginRequest;
-import cat.institutmvm.jwtserver.dto.MessageResponse;
-import cat.institutmvm.jwtserver.dto.RegisterRequest;
-import cat.institutmvm.jwtserver.service.AuthService;
+import cat.xaviersastre.jwtserver.dto.JwtResponse;
+import cat.xaviersastre.jwtserver.dto.LoginRequest;
+import cat.xaviersastre.jwtserver.dto.MessageResponse;
+import cat.xaviersastre.jwtserver.dto.RegisterRequest;
+import cat.xaviersastre.jwtserver.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -16,7 +16,9 @@ import org.springframework.web.bind.annotation.*;
 public class AuthController {
     
     private final AuthService authService;
-    
+
+
+
     @PostMapping("/login")
     public ResponseEntity<JwtResponse> login(@Valid @RequestBody LoginRequest request) {
         try {

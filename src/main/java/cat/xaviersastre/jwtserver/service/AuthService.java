@@ -1,9 +1,12 @@
-package cat.institutmvm.jwtserver.service;
+package cat.xaviersastre.jwtserver.service;
 
-import cat.institutmvm.jwtserver.dto.*;
-import cat.institutmvm.jwtserver.model.User;
-import cat.institutmvm.jwtserver.repository.UserRepository;
-import cat.institutmvm.jwtserver.security.JwtTokenUtil;
+import cat.xaviersastre.jwtserver.model.User;
+import cat.xaviersastre.jwtserver.repository.UserRepository;
+import cat.xaviersastre.jwtserver.security.JwtTokenUtil;
+import cat.xaviersastre.jwtserver.dto.JwtResponse;
+import cat.xaviersastre.jwtserver.dto.LoginRequest;
+import cat.xaviersastre.jwtserver.dto.MessageResponse;
+import cat.xaviersastre.jwtserver.dto.RegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

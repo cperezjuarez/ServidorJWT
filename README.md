@@ -218,7 +218,7 @@ El fitxer `src/main/resources/application.properties` conté la configuració de
 ```
 src/
 ├── main/
-│   ├── java/cat/institutmvm/jwtserver/
+│   ├── java/cat/xaviersastre/jwtserver/
 │   │   ├── controller/         # Controllers REST
 │   │   ├── dto/                # Data Transfer Objects
 │   │   ├── model/              # Entitats JPA

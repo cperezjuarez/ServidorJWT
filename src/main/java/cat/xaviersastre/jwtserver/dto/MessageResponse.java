@@ -1,4 +1,4 @@
-package cat.institutmvm.jwtserver.dto;
+package cat.xaviersastre.jwtserver.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,4 +7,5 @@ import lombok.Data;
 @AllArgsConstructor
 public class MessageResponse {
     private String message;
+
 }

@@ -1,4 +1,4 @@
-package cat.institutmvm.jwtserver.dto;
+package cat.xaviersastre.jwtserver.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

@@ -1,9 +1,9 @@
-package cat.institutmvm.jwtserver.controller;
+package cat.xaviersastre.jwtserver.controller;
 
-import cat.institutmvm.jwtserver.dto.MessageResponse;
-import cat.institutmvm.jwtserver.dto.UpdateUserRequest;
-import cat.institutmvm.jwtserver.dto.UserResponse;
-import cat.institutmvm.jwtserver.service.UserService;
+import cat.xaviersastre.jwtserver.dto.MessageResponse;
+import cat.xaviersastre.jwtserver.dto.UpdateUserRequest;
+import cat.xaviersastre.jwtserver.dto.UserResponse;
+import cat.xaviersastre.jwtserver.service.UserService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

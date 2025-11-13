@@ -1,9 +1,9 @@
-package cat.institutmvm.jwtserver.service;
+package cat.xaviersastre.jwtserver.service;
 
-import cat.institutmvm.jwtserver.dto.UpdateUserRequest;
-import cat.institutmvm.jwtserver.dto.UserResponse;
-import cat.institutmvm.jwtserver.model.User;
-import cat.institutmvm.jwtserver.repository.UserRepository;
+import cat.xaviersastre.jwtserver.dto.UpdateUserRequest;
+import cat.xaviersastre.jwtserver.dto.UserResponse;
+import cat.xaviersastre.jwtserver.model.User;
+import cat.xaviersastre.jwtserver.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
@@ -17,7 +17,7 @@ public class UserService {
     
     private final UserRepository userRepository;
     private final PasswordEncoder passwordEncoder;
-    
+
     public List<UserResponse> getAllUsers() {
         return userRepository.findAll().stream()
                 .map(this::convertToUserResponse)
