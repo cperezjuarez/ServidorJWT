@@ -317,6 +317,7 @@ src/
 │   │   ├── service/            # Lògica de negoci
 │   │   └── JwtServerApplication.java
 │   └── resources/
+│       ├── application-postgres.properties
 │       └── application.properties
 └── test/
 ```
