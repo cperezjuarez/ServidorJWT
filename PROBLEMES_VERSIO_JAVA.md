@@ -1,4 +1,5 @@
-<img src="https://docencia.xaviersastre.cat/imatges/logosxs/logo_xaviersastre_v3_1.webp" alt="drawing" width="50%"/>
+<img src="https://docencia.xaviersastre.cat/Moduls/DWES/img/Spring_Boot_Documentation_Header_1200x200px_with_Xavier_Sastre_Mug_and_Logo_ajustat.png" alt="drawing"/>
+
 
 [![Desenvolupat amb Spring-Boot](https://img.shields.io/badge/Desenvolupat%20amb-SpringBoot-green?&logo=springboot&logoColor=white)](https://github.com/xsastre)
 [![per en](https://img.shields.io/badge/per%20en-xsastre-red)](https://github.com/xsastre)
