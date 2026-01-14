@@ -77,6 +77,17 @@ Content-Type: application/json
 }
 ```
 
+Exemple de com fer-ho amb curl
+```bash 
+curl -X POST http://localhost:8080/api/auth/register
+      -H "Content-Type: application/json"
+      -d '{
+           "username": "usuariTest",
+           "password": "contrasenyaSegura",
+           "email": "usuari@test.com"
+         }'
+```
+
 **Resposta:**
 ```json
 {
@@ -95,6 +106,15 @@ Content-Type: application/json
 }
 ```
 
+Exemple de com fer-ho amb curl
+```bash
+curl -X POST http://localhost:8080/api/auth/login \
+	 -H "Content-Type: application/json" \
+	 -d '{
+		  "username": "usuariTest",
+		  "password": "contrasenyaSegura"
+		 }'
+```
 **Resposta:**
 ```json
 {
