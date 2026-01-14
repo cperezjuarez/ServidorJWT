@@ -301,7 +301,7 @@ El fitxer `src/main/resources/application.properties` conté la configuració de
   - `POSTGRES_URL` (o `spring.datasource.url`)
   - `POSTGRES_USER` (o `spring.datasource.username`)
   - `POSTGRES_PASSWORD` (o `spring.datasource.password`; pot quedar buit si el teu servidor ho permet)
-  - El perfil `postgres` utilitza `spring.jpa.hibernate.ddl-auto=update`, per la qual cosa l'esquema es crearà automàticament al primer arrencada.
+  - El perfil `postgres` utilitza `spring.jpa.hibernate.ddl-auto=update`, per la qual cosa l'esquema es crearà automàticament al primer arrencada. En entorns de producció estableix sempre una contrasenya i considera canviar a `validate` per evitar canvis automàtics d'esquema.
 - **Secret JWT**: Configurable (per defecte inclòs)
 - **Expiració del token**: 24 hores (86400000 ms)
 
