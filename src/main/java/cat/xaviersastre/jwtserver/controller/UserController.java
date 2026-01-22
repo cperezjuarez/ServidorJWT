@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+
 @RestController
 @RequestMapping("/api/users")
 @RequiredArgsConstructor
@@ -33,6 +34,12 @@ public class UserController {
         } catch (RuntimeException e) {
             return ResponseEntity.notFound().build();
         }
+    }
+
+    @GetMapping("/search/{username}")
+    public ResponseEntity<List<UserResponse>> getAllUsersByUsername(@PathVariable String username) {
+        List<UserResponse> users = userService.getAllUsersByUsername(username);
+        return ResponseEntity.ok(users);
     }
     
     @PreAuthorize("hasRole('ADMIN')")
